@@ -17,10 +17,11 @@ border-radius: 50px;
     justify-content: center;
     margin:0px 3px 0px 0px;
     color:#B1A592;
-    width: 200px;
+    width: 300px;
     
 
 }
+
 
 
 
@@ -30,8 +31,8 @@ border-radius: 50px;
     border-radius: 35px;
     border: 1px solid #B1A592;
     justify-content: center;
-    margin:0px 3px 0px 0px;
-  
+    margin:5px 5px 5px 5px;
+    
    
     width: 150px;
     
@@ -106,14 +107,14 @@ font-size: 24px;
     padding-left: 10px;
   }
   .image2{
-    width:50%;
+    width:40%;
     height:200px;
     border-radius:40px;
    
   }
   
   .image3{
-    width:100%;
+    width:90%;
     height:auto;
     padding-bottom: 20px;
     border-radius:40px;
@@ -271,7 +272,33 @@ color: #333333;
    width:100%;
 }
 
+.image2:hover{
+    width:50%;
+ }
+ .image3:hover{
+    width:100%;
+ }
+ .image4:hover{
+    width:100px;
+ }
   
- 
+ @media only screen and (max-width: 990px) {
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    
+    .three{
+        grid-template-columns: 1fr;
+    }
 
+    .menu{
+        color:#999478;
+        font-weight: bold;
+        text-align: center;
+    }
+    .icon1{
+        width:40px;
+        margin-right: 10px;
+    }
+  }
 
